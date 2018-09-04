@@ -1,7 +1,5 @@
 FROM docker.io/alpine:latest
 
-ARG WILDFLY_VERSION=14.0.0.Final
-
 USER root
 RUN apk add openjdk8 openjdk8-jre openjdk8-jre-base freetype fontconfig busybox ttf-dejavu xvfb
 RUN wget http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final.tar.gz -O wildfly.tar
