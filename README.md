@@ -1,10 +1,10 @@
 Creating docker containers for practice
 
 
-## Java ##
+## Java, Python, Ruby, NodeJS, Groovy ##
 
-HelloWorld app
+HelloWorld app in docker file
 
-## Python ##
+## Jenkins ##
 
-enkins app
+Setup jenkins automated server in docker file on ALPINE linux
